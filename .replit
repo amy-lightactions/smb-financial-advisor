@@ -1,0 +1,7 @@
+run = "python server.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["python", "server.py"]
